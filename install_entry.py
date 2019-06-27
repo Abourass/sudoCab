@@ -10,9 +10,10 @@ class InstallEntry(install):
 
     def run(self):
         curr = (os.getcwd())
-        os.system('chmod +x ' + curr + '/sudoCab/script.sh')
+        os.system('chmod +x ' + curr + '/script.sh')
         home = expanduser("~")
-        shutil.copyfile(curr + "/sudoCab/.vocab", home + "/.vocab")
-        shutil.copyfile(curr + "/sudoCab/.vocabscript", home + "/.vocabscript")
-        subprocess.call(['./sudoCab/script.sh'])
+        shutil.copyfile(curr + "/.vocab", home + "/.vocab")
+        shutil.copyfile(curr + "/.vocab-german", home + "/.vocab-german")
+        shutil.copyfile(curr + "/.vocabscript", home + "/.vocabscript")
+        subprocess.call(['./script.sh'])
         install.run(self)

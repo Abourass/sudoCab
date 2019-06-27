@@ -1,7 +1,7 @@
 from os import path
 import io
 from setuptools import setup
-from sudoCab.install_entry import InstallEntry
+from install_entry import InstallEntry
 
 here = path.abspath(path.dirname(__file__))
 
