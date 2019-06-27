@@ -18,5 +18,5 @@ if [[ -f ~/.$OSBASHRC ]]; then
 	fi
 fi
 
-echo $'\n chmod +x ~/.vocab-german'
-echo $'\n chmod +x ~/.vocabscript'
+echo 'chmod +x ~/.vocab-german'
+echo 'chmod +x ~/.vocabscript'
