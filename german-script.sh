@@ -2,6 +2,9 @@
 wget -O ~/.vocab "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocab" --no-check-certificate
 wget -O ~/.vocab-german "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocab-german" --no-check-certificate
 wget -O ~/.vocabscript "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocabscript" --no-check-certificate
+
+echo $'\nchmod +x ~/.vocab-german'
+
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
 elif [[ "$OSTYPE" == "darwin"* ]]; then
