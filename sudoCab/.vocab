@@ -6,5 +6,5 @@ meaningarray=( "TO DECREASE; REDUCE" "TO GIVE UP A POSITION, RIGHT, OR POWER" "D
 export wordarray
 export meaningarray
 # chmod +x ~/.vocabscript
-# . ~/.vocabscript
+. ~/.vocabscript
 exit 0
