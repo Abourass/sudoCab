@@ -3,6 +3,7 @@ wget -O ~/.vocab "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudo
 wget -O ~/.vocabscript "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocabscript" --no-check-certificate
 
 echo $'\nchmod +x ~/.vocab'
+echo $'\nchmod +x ~/.vocabscript'
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
