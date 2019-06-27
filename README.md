@@ -1,9 +1,9 @@
-<h1 align="center">Welcome to sudoCab👋 :wave:</h1>
+<h1 align="center">Welcome to sudoCab👋 </h1>
 
 > Heavily ~~lifted from~~ inspired by [Sudocabulary](https://github.com/badarsh2/Sudocabulary)
 
 
-### :house: 🏠[Homepage](https://github.com/Abourass/sudoCab)
+### 🏠[Homepage](https://github.com/Abourass/sudoCab)
 
 
 ```bash
