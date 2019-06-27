@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-wget -O ~/.vocab-german "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocab-german" --no-check-certificate
-wget -O ~/.vocabscript "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocabscript" --no-check-certificate
+wget -O ~/.vocab-german "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab-german" --no-check-certificate
+wget -O ~/.vocabscript "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocabscript" --no-check-certificate
 
-echo $'\nchmod +x ~/.vocab-german'
-echo $'\nchmod +x ~/.vocabscript'
+echo $'\n chmod +x ~/.vocab-german'
+echo $'\n chmod +x ~/.vocabscript'
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
