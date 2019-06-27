@@ -23,6 +23,11 @@ wordArray=(
     'Ein Mädchen'
     'Gern Geschehen'
     'Gerne'
+    'Es tut mir Leid'
+    'Essen'
+    'Isst'
+    'Esse'
+    'Esst'
 )
 meaningArray=(
     "Hello, a greeting"
@@ -46,6 +51,11 @@ meaningArray=(
     "A girl"
     "You're Welcome"
     "A less formal 'You're Welcome'"
+    "I'm sorry, or literally translated 'It does me Harm'"
+    "Are Eating"
+    "Are Eating / Eats"
+    "Am Eating / Eat / Eating"
+    "Are Eating / Eating / Eat"
 )
 pronunciationArray=(
     'ha-low'
@@ -69,6 +79,11 @@ pronunciationArray=(
     'eye-n maid-ken'
     'Ghern gah-shane'
     'Ghern'
+    'Es toot meir lied'
+    'es-sen'
+    'isst'
+    'es-seh'
+    'esst'
 )
 export wordArray
 export meaningArray
