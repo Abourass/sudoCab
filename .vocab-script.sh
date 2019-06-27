@@ -88,8 +88,6 @@ NewLine="\n"
 Jobs="\j"
 Bold=$(tput bold)
 normal=$(tput sgr0)
-bold=$(tput bold)
-normal=$(tput sgr0)
 printf "${BCyan}Word Of The Session: ${Cyan}${wordArray[rand-1],,}${Color_Off}\n"
 printf "${BPurple}Meaning            : ${Purple}${meaningArray[rand-1],,}${Color_Off}\n"
 printf "\n"

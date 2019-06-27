@@ -5,16 +5,25 @@ wordArray=(
     'Hallo'
     'Guten Tag'
     'Danke'
+    'Bitte'
+    'Gut'
+    'tschüss'
 )
 meaningArray=(
     "Hello, a greeting"
     "Good Day"
     "Thank you"
+    "Please"
+    "Good / Fine"
+    "Bye"
 )
 pronunciationArray=(
     'ha-low'
     'gu-ten tag'
-    'DAHN-keh'
+    'dahn-keh'
+    'bit-teh'
+    'goo-t'
+    'choosse'
 )
 export wordArray
 export meaningArray
