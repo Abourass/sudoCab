@@ -22,6 +22,7 @@ wordArray=(
     'Ein Junge'
     'Ein Mädchen'
     'Gern Geschehen'
+    'Gerne'
 )
 meaningArray=(
     "Hello, a greeting"
@@ -44,14 +45,15 @@ meaningArray=(
     "A boy"
     "A girl"
     "You're Welcome"
+    "A less formal 'You're Welcome'"
 )
 pronunciationArray=(
     'ha-low'
     'gu-ten tag'
     'dahn-keh'
     'dahn-keh-show-n'
-    'Vee-len Dank'
-    't-ow-zend Dank'
+    'Feel-en Dahnk'
+    't-ow-zend Dahnk'
     'bit-teh'
     'goo-t'
     'choosse'
@@ -66,6 +68,7 @@ pronunciationArray=(
     'eye-n you-n-geh'
     'eye-n maid-ken'
     'Ghern gah-shane'
+    'Ghern'
 )
 export wordArray
 export meaningArray
