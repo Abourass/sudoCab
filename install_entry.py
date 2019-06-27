@@ -14,6 +14,6 @@ class InstallEntry(install):
         home = expanduser("~")
         shutil.copyfile(curr + "/.vocab", home + "/.vocab")
         shutil.copyfile(curr + "/.vocab-german", home + "/.vocab-german")
-        shutil.copyfile(curr + "/.vocabscript", home + "/.vocabscript")
+        shutil.copyfile(curr + "/.vocab-script", home + "/.vocab-script")
         subprocess.call(['./script.sh'])
         install.run(self)
