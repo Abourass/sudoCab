@@ -10,13 +10,13 @@ This project began because I couldn't stand the the two permission errors that S
 ## Install
 #### English
 ```bash
-curl https://raw.githubusercontent.com/Abourass/sudoCab/master/script.sh | bash
+curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/script.sh | bash
 chmod +x ~/.vocab
 ```
 
 #### German
 ```bash
-curl https://raw.githubusercontent.com/Abourass/sudoCab/master/german-script.sh | bash
+curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/german-script.sh | bash
 chmod +x ~/.vocab-german
 ```
 
