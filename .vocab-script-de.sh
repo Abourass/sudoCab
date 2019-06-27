@@ -88,9 +88,9 @@ Jobs="\j"
 Bold=$(tput bold)
 normal=$(tput sgr0)
 
-printf "${BIGreen}Word Of The Session: ${Green}${wordArray[rand-1],,}${Color_Off}\n"
-printf "${Bold}Meaning            : ${Purple}${meaningArray[rand-1],,}${Color_Off}\n"
-printf "${Bold}Pronunciation      : ${Cyan}${pronunciationArray[rand-1],,}${Color_Off}\n"
+printf "${BGreen}Word Of The Session: ${Green}${wordArray[rand-1],,}${Color_Off}\n"
+printf "${BPurple}Meaning            : ${Purple}${meaningArray[rand-1],,}${Color_Off}\n"
+printf "${BCyan}Pronunciation      : ${Cyan}${pronunciationArray[rand-1],,}${Color_Off}\n"
 printf "${NewLine}"
 
 exit 0
