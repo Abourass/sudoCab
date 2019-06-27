@@ -14,6 +14,7 @@ curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sud
 chmod +x ~/.vocab
 ```
 
+![IMG](https://i.imgur.com/8siWx3l.png)
 #### German
 ```bash
 curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/german-script.sh | bash
