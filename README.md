@@ -5,7 +5,9 @@
 
 ### 🏠 [Homepage](https://github.com/Abourass/sudoCab)
 
-This project began because I couldn't stand the the two permission errors that Sudocab kept returning every time I'd open a new terminal. From there, I've decided to work on making this plugin a tad more extensible. My hope is to enable you to upload your own dictionary files so you can learn whatever language you prefer.
+This project began because I wanted Sudocabulary but for a second language. So far I'm working on German, but open to contributions for other languages!
+
+![IMG](https://i.imgur.com/8siWx3l.png)
 
 ## Install
 #### English
@@ -14,7 +16,6 @@ curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sud
 chmod +x ~/.vocab
 ```
 
-![IMG](https://i.imgur.com/8siWx3l.png)
 #### German
 ```bash
 curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/german-script.sh | bash
