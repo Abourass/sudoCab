@@ -8,6 +8,17 @@ wordArray=(
     'Bitte'
     'Gut'
     'tschüss'
+    'Apfel'
+    'Mann'
+    'Frau'
+    'Junge'
+    'Mädchen'
+    'Ihr'
+    'Ein Mann'
+    'Eine Frau'
+    'Ein Junge'
+    'Ein Mädchen'
+    'Gern Geschehen'
 )
 meaningArray=(
     "Hello, a greeting"
@@ -16,6 +27,17 @@ meaningArray=(
     "Please"
     "Good / Fine"
     "Bye"
+    "Apple"
+    "Man"
+    "Woman"
+    "Boy"
+    "Girl"
+    "You / Her"
+    "A man"
+    "A woman"
+    "A boy"
+    "A girl"
+    "You're Welcome"
 )
 pronunciationArray=(
     'ha-low'
@@ -24,6 +46,17 @@ pronunciationArray=(
     'bit-teh'
     'goo-t'
     'choosse'
+    'app-fel'
+    'mah-n'
+    'frow'
+    'you-n-geh'
+    'maid-ken'
+    'e-hr'
+    'eye-n Man'
+    'eye-neh frow'
+    'eye-n you-n-geh'
+    'eye-n maid-ken'
+    'Ghern gah-shane'
 )
 export wordArray
 export meaningArray
