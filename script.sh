@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-wget -O ~/.vocab "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab" --no-check-certificate
+wget -O ~/.vocab "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab.sh" --no-check-certificate
 wget -O ~/.vocab-script "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab-script.sh" --no-check-certificate
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then

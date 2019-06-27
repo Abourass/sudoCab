@@ -7,5 +7,5 @@ pronunciationArray=('ha-low' 'gu-ten tag')
 export wordArray
 export meaningArray
 # chmod +x ~/.vocab-script
-. ~/.vocab-script
+. ~/.vocab-script-de
 exit 0
