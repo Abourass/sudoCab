@@ -5,6 +5,8 @@
 
 ### 🏠 [Homepage](https://github.com/Abourass/sudoCab)
 
+This project began because I couldn't stand the the two permission errors that Sudocab kept returning every time I'd open a new terminal. From there, I've decided to work on making this plugin a tad more extensible. My hope is to enable you to upload your own dictionary files so you can learn whatever language you prefer.
+
 ## Install
 ```bash
 curl https://raw.githubusercontent.com/Abourass/sudoCab/master/script.sh | bash
