@@ -5,6 +5,9 @@ wordArray=(
     'Hallo'
     'Guten Tag'
     'Danke'
+    'Dankeschön'
+    'Vielen Dank'
+    'Tausend Dank'
     'Bitte'
     'Gut'
     'tschüss'
@@ -23,7 +26,10 @@ wordArray=(
 meaningArray=(
     "Hello, a greeting"
     "Good Day"
-    "Thank you"
+    "Thanks / Thank you"
+    "Thank you very much"
+    "Many Thanks"
+    "A Thousand Thanks"
     "Please"
     "Good / Fine"
     "Bye"
@@ -43,6 +49,9 @@ pronunciationArray=(
     'ha-low'
     'gu-ten tag'
     'dahn-keh'
+    'dahn-keh-show-n'
+    'Vee-len Dank'
+    't-ow-zend Dank'
     'bit-teh'
     'goo-t'
     'choosse'
