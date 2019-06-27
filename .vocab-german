@@ -5,6 +5,6 @@ wordarray=( 'Hallo' )
 meaningarray=( "Hello, a greeting" )
 export wordarray
 export meaningarray
-# chmod +x ~/.vocabscript
-. ~/.vocabscript
+# chmod +x ~/.vocab-script
+. ~/.vocab-script
 exit 0
