@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 wget -O ~/.vocab-german "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab-german.sh" --no-check-certificate
-wget -O ~/.vocab-script "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab-script.sh" --no-check-certificate
+wget -O ~/.vocab-script-de "https://raw.githubusercontent.com/Abourass/sudoCab/master/.vocab-script-de.sh" --no-check-certificate
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
@@ -19,4 +19,4 @@ if [[ -f ~/.$OSBASHRC ]]; then
 fi
 
 echo $'chmod u+x ~/.vocab-german'
-echo $'chmod u+x ~/.vocab-script'
+echo $'chmod u+x ~/.vocab-script-de'
