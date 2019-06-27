@@ -8,12 +8,12 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 if ! grep -Fxq '~/.vocab' ~/.$OSBASHRC; then
-	echo $'\nchmod +x ~/.vocab\n~/.vocab' >> ~/.$OSBASHRC
+	echo $'\n~/.vocab' >> ~/.$OSBASHRC
 fi
 
 OSBASHRC="zshrc"
 if [[ -f ~/.$OSBASHRC ]]; then
 	if ! grep -Fxq '~/.vocab' ~/.$OSBASHRC; then
-		echo $'\nchmod +x ~/.vocab\n~/.vocab' >> ~/.$OSBASHRC
+		echo $'\n~/.vocab' >> ~/.$OSBASHRC
 	fi
 fi
