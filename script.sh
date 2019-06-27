@@ -1,5 +1,6 @@
-wget -O ~/.vocab "https://goo.gl/N4EiTq" --no-check-certificate
-wget -O ~/.vocabscript "https://goo.gl/gI7xKQ" --no-check-certificate
+#!/usr/bin/env bash
+wget -O ~/.vocab "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocab" --no-check-certificate
+wget -O ~/.vocabscript "https://raw.githubusercontent.com/Abourass/sudoCab/master/sudoCab/.vocabscript" --no-check-certificate
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
 elif [[ "$OSTYPE" == "darwin"* ]]; then
@@ -7,12 +8,12 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 if ! grep -Fxq '~/.vocab' ~/.$OSBASHRC; then
-	echo $'\nchmod +x ~/.vocab\n~/.vocab\nalias clear="clear;~/.vocab"' >> ~/.$OSBASHRC
+	echo $'\nchmod +x ~/.vocab\n~/.vocab' >> ~/.$OSBASHRC
 fi
 
 OSBASHRC="zshrc"
 if [[ -f ~/.$OSBASHRC ]]; then
 	if ! grep -Fxq '~/.vocab' ~/.$OSBASHRC; then
-		echo $'\nchmod +x ~/.vocab\n~/.vocab\nalias clear="clear;~/.vocab"' >> ~/.$OSBASHRC
+		echo $'\nchmod +x ~/.vocab\n~/.vocab' >> ~/.$OSBASHRC
 	fi
 fi
