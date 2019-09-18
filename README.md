@@ -19,7 +19,7 @@ chmod +x ~/.vocab
 #### German
 ```bash
 curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/German-setup.sh | bash
-chmod +x ~/.vocab-german
+chmod +x ~/.vocab-German.sh
 ```
 
 Now restart your terminal! You should now start receiving some top notch vocab.
