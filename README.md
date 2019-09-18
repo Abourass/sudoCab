@@ -18,7 +18,7 @@ chmod +x ~/.vocab
 
 #### German
 ```bash
-curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/german-script.sh | bash
+curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/Abourass/sudoCab/master/German-setup.sh | bash
 chmod +x ~/.vocab-german
 ```
 
