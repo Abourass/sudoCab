@@ -28,6 +28,8 @@ wordArray=(
     'Isst'
     'Esse'
     'Esst'
+    "Mir Geht's Gut"
+    'Ich bin ein Mann'
 )
 meaningArray=(
     "Hello, a greeting"
@@ -56,6 +58,8 @@ meaningArray=(
     "Are Eating / Eats"
     "Am Eating / Eat / Eating"
     "Are Eating / Eating / Eat"
+    "I'm fine / I'm good"
+    "I am a man"
 )
 pronunciationArray=(
     'ha-low'
@@ -84,6 +88,8 @@ pronunciationArray=(
     'isst'
     'es-seh'
     'esst'
+    'Me-r Gayt-s Gut'
+    'Eek bin eye-n Man'
 )
 export wordArray
 export meaningArray

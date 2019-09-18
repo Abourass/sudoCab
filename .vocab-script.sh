@@ -4,7 +4,6 @@ size=${#wordArray[@]}
 
 rand=$(( ( RANDOM % size )  + 1 ))
 
-
 # Reset
 Color_Off="\033[0m"       # Text Reset
 
@@ -88,8 +87,10 @@ NewLine="\n"
 Jobs="\j"
 Bold=$(tput bold)
 normal=$(tput sgr0)
-printf "${BCyan}Word Of The Session: ${Cyan}${wordArray[rand-1],,}${Color_Off}\n"
-printf "${BPurple}Meaning            : ${Purple}${meaningArray[rand-1],,}${Color_Off}\n"
-printf "\n"
+
+printf "${Bold}Word Of The Session: ${Green}${wordArray[rand-1],,}${Color_Off}\n"
+printf "${Bold}Meaning            : ${Purple}${meaningArray[rand-1],,}${Color_Off}\n"
+printf "${Bold}Pronunciation      : ${Cyan}${pronunciationArray[rand-1],,}${Color_Off}\n"
+printf "${NewLine}"
 
 exit 0

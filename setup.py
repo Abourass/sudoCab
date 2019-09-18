@@ -10,7 +10,7 @@ with io.open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(name='sudoCab',
       version='1.0.0',
-      description='Want to learn another language while using terminal? Now is the time',
+      description='Want to learn another language every time you use terminal?',
       long_description=long_description,
       url='https://github.com/Abourass/sudoCab.git',
       author='Abourass',
